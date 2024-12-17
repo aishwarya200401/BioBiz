@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.scrollHeading{
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 36px;
+    color: #12876F !important;
+    text-align: center;
+}
+.containerScrolling {
+    max-width: 400px;
+}
+.containerScrolling ul, .containerScrolling li {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.data-list-Scrolling{
+    height: 380px;
+    width: 300px;
+    padding: 2rem;
+    overflow-y: hidden;
+}
+ol, ul {
+    list-style: none;
+}
+.scrollColor {
+    color: black !important;
+}
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.buttonOther{
+    border-radius: 10px;
+}
+@media screen  and (max-width:700px){
+    #video, #navbarNavAltMarkup{
+        position: relative;
+        
+    }
+}
